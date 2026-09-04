@@ -1,0 +1,30 @@
+# --- Secrets: never commit ---
+.env
+*.env
+!.env.example
+
+# --- Virtual environment (386 MB, 14k files) ---
+.idea/VirtualEnvironment/
+venv/
+.venv/
+
+# --- IDE + Hyperskill local state ---
+.idea/
+*.iml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- Machine-specific generated files ---
+ca-bundle.pem
+
+# --- Hyperskill course content (theirs, not mine to republish) ---
+Butler Agent/*/task.html
+Butler Agent/*/task-info.yaml
+Butler Agent/*/task-remote-info.yaml
+Butler Agent/lesson-info.yaml
+Butler Agent/task/test/
+Butler Agent/task/tests.py
+course-info.yaml
+course-remote-info.yaml
